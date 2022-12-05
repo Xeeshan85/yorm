@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+    <html lang = "en">
+
+        <head>
+            <!-- Meta Tags -->
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+            <meta http-equiv="refresh" content="60" />
+            <!-- Linking Bootstrap and additional fonts -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+            <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+             <!-- Bootstrap icons-->
+             <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <!-- Little Chunck of Java script -->
+            <script>
+                function greet()
+                {
+                    let name = document.querySelector('#name').value;
+                    alert('Welcome to Yorm Community, ' + name)
+                }
+            </script>
+            <!-- Linking Style Sheet -->
+            <link rel="stylesheet" href="home.css">
+            <title>YORM.products</title>
+        </head>
+
+        <body>
+            <!-- Navigation Bar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container px-4 px-lg-5"> 
+                    <img style="height: 50px; width: 60px; margin: 5px;" src="images/transparent.png" alt="logo">
+                    <a style="font-family: pacifico" class="navbar-brand" href="#!">YORM</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent"style="margin-right: -150px;">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="home.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="home.html">About</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#!">Products</a></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><a class="dropdown-item" href="#!">Popular</a></li>
+                                    <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form action="cart.html"class="d-flex" >
+                            <button class="btn btn-outline-dark" type="submit">
+                                <i class="bi-cart-fill me-1"></i>
+                                Cart
+                                <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                            </button>
+                            
+                        </form><a href="login.html"><button class="log">Login</button></a><a href="register.html"><button class="reg">Sign up</button></a>
+                    </div>
+                </div>
+            </nav>  
+            <!-- Header-->
+            <header class="back2 py-5">
+                <!-- Section-->
+            <section>
+                <div class="container px-4 px-lg-5 mt-5">
+                    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                        <div class="col mb-5">
+                            <div class="card h-100">
+                                <!-- Product image-->
+                                <img class="card-img-top" src="images/hood1.jpg" alt="Hoodies" />
+                                <!-- Product details-->
+                                <div class="card-body p-4">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">White Toddler</h5>
+                                        <!-- Product price-->
+                                        $40.00 - $80.00
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View More</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-5">
+                            <div class="card h-100">
+                                <!-- Sale badge-->
+                                <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                                <!-- Product image-->
+                                <img class="card-img-top" src="images/hood2.jpg" alt="Hoodies" />
+                                <!-- Product details-->
+                                <div class="card-body p-4">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">Grey Yorm</h5>
+                                        <!-- Product reviews aka Stars -->
+                                        <div class="d-flex justify-content-center small text-warning mb-2">
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                        </div>
+                                        <!-- Product price-->
+                                        <span class="text-muted text-decoration-line-through">$20.00</span>
+                                        $18.00
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-5">
+                            <div class="card h-100">
+                                <!-- Sale badge-->
+                                <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                                <!-- Product image-->
+                                <img class="card-img-top"style="height: 750; width: 300;" src="images/hood3.jpg" alt="Hoodies" />
+                                <!-- Product details-->
+                                <div class="card-body p-4">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">White Ruubsy</h5>
+                                        <!-- Product price-->
+                                        <span class="text-muted text-decoration-line-through">$50.00</span>
+                                        $25.00
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-5">
+                            <div class="card h-100">
+                                <!-- Product image-->
+                                <img class="card-img-top" src="images/hood4.jpg" alt="Hoodies" />
+                                <!-- Product details-->
+                                <div class="card-body p-4">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">Orange Todller</h5>
+                                        <!-- Product reviews-->
+                                        <div class="d-flex justify-content-center small text-warning mb-2">
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                        </div>
+                                        <!-- Product price-->
+                                        $40.00
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-5">
+                            <div class="card h-100">
+                                <!-- Sale badge-->
+                                <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                                <!-- Product image-->
+                                <img class="card-img-top" src="images/hood5.jpg" alt="Hoodies" />
+                                <!-- Product details-->
+                                <div class="card-body p-4">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">Pink Classic</h5>
+                                        <!-- Product price-->
+                                        <span class="text-muted text-decoration-line-through">$50.00</span>
+                                        $25.00
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-5">
+                            <div class="card h-100">
+                                <!-- Product image-->
+                                <img class="card-img-top" src="images/hood6.jpg" alt="Hoodies" />
+                                <!-- Product details-->
+                                <div class="card-body p-4">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">Navy Blue Toddler</h5>
+                                        <!-- Product price-->
+                                        $120.00 - $280.00
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-5">
+                            <div class="card h-100">
+                                <!-- Sale badge-->
+                                <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                                <!-- Product image-->
+                                <img class="card-img-top" src="images/hood7.jpg" alt="Hoodies" />
+                                <!-- Product details-->
+                                <div class="card-body p-4">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">Rose Pink</h5>
+                                        <!-- Product reviews-->
+                                        <div class="d-flex justify-content-center small text-warning mb-2">
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                        </div>
+                                        <!-- Product price-->
+                                        <span class="text-muted text-decoration-line-through">$20.00</span>
+                                        $18.00
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-5">
+                            <div class="card h-100">
+                                <!-- Product image-->
+                                <img class="card-img-top" src="images/hood8.jpg" alt="Hoodies" />
+                                <!-- Product details-->
+                                <div class="card-body p-4">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">Sky Blue Ruubsy</h5>
+                                        <!-- Product reviews-->
+                                        <div class="d-flex justify-content-center small text-warning mb-2">
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                        </div>
+                                        <!-- Product price-->
+                                        $40.00
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </header>
+            
+             <!-- Footer-->
+            <footer style="height: 300px;"class="bg-dark">
+                <div style="width: 50%; float: left;">
+                    <a style="text-decoration: none;" href="#!"><h1 class="logo">Yorm.com</h1></a>
+                    <a style="text-decoration: none;" href="#!"><h5 class="logo1">Merch Hoodies</h5></a>
+                    <p style="text-align: left;margin-left: 100px;margin-top: 15px;color: rgb(172, 167, 167);">I am text block. Click edit button to change this text. Lorem ipsum dolor sit <br> amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, <br> pulvinar dapibus leo. I am text block. Click edit button to change this text. <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus <br> nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div style="width: 50%;">
+                </div>
+            </div>
+                <div style="width: 50%;height: 300px;float: right;">
+                    <div class="row" style="margin-top: -30px; width: 600px;">
+                        <div class="col" style="width: 50%;"><h3 style="color: #ff6720;margin-top: 42px;margin-left: 60px;font-weight: 620;">CONTACT <span style="color:  #ffc720;">US</span></h3></div>
+                        <div class="col" style="margin-top: 35px; margin-left: 80px ;font-size: 30px;">
+                            <a href="https://facebook.com" class="fa br fa-facebook"></a>
+                            <a href="https://twitter.com" class="fa br fa-twitter"></a>
+                            <a href="https://instagram.com" class="fa br fa-instagram"></a>
+                            <a href="https://linkedin.com" class="fa br fa-linkedin"></a>
+                            <a href="https://pinterest.com" class="fa br fa-pinterest"></a>
+                        </div>
+                    </div>
+                    <div class="row" style="width: 400px;">
+                        <p style="color: rgb(182, 176, 176);margin-left: 60px;">Shop with Yorm and become a norm.<br> Contact us now <br> Phone: +923182227991 <br>
+                        <span><a id="jj" style="color: white;" href=""> yorm@gmail.com</a></span>
+                        <br><span id="jj"> Special deals are awaiting <br> February 11, 2020 11:00 am</span></p><br>
+                        
+                        <form onsubmit="greet(); return false;">
+                            <input class="form-control" style="width: 290px;border-radius: 0px;margin-left: 60px;margin-top: 15px;" placeholder="EMAIL" type="text" id="name"><button class="btn btn-warning" style="width: 150px;height: 40px;border-radius: 0px;margin-left: 360px;margin-top: -65px;font-weight: bolder;color: #d44e10;">SUBSCRIBE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+                </div>
+                <div style=" height: 100px; width: 100%;">
+                    <p class="text-center text-white" >Copyright &copy; Your Website 2022</p>
+                </div>
+            </footer>
+        </body>
+    </html>
+

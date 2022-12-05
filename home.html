@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+    <html lang = "en">
+
+        <head>
+            <!-- Meta tags -->
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+            <!-- Linking Bootstrap -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+            <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+            <!-- Bootstrap icons-->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <!-- Little Chunck of Java script -->
+            <script>
+                function greet()
+                {
+                    let name = document.querySelector('#name').value;
+                    alert('Welcome to Yorm Community, ' + name)
+                }
+            </script>
+             <!--External Css-->
+            <link rel="stylesheet" href="home.css">
+            <title>YORM.Home</title>
+        </head>
+
+        <body>
+            <!-- Navigation Bar-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container px-4 px-lg-5">
+                    <!--Logo-->
+                    <img style="height: 50px; width: 60px; margin: 5px;" src="images/transparent.png" alt="logo">
+                    <a style="font-family: pacifico" class="navbar-brand" href="#!">YORM</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about_us">About</a></li>
+                            <!-- Drop down List within Shop Icon -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="products.html">Products</a></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><a class="dropdown-item" href="products.html">Popular</a></li>
+                                    <li><a class="dropdown-item" href="products.html">New Arrivals</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--Cart Button-->
+                        <form action="cart.html" class="d-flex">
+                            <button class="btn btn-outline-dark" type="submit">
+                                <i class="bi-cart-fill me-1"></i>
+                                Cart
+                                <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                            </button>
+                            
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <!-- Header-->
+            <!-- Login & Sign up Hovering-->
+            <header class="back py-5">
+                <div class="container px-4 px-lg-5 my-5">
+                    <div class="text-center text-white">
+                        <h1 ><a href="login.html"><button class="log">Login</button></a><a href="register.html"><button class="reg" style="color: white;">Sign up</button></a></h1>
+                        <p class="lead fw-normal text-white-50 mb-0" style="font-style: red;">Worried for winters? Shop with Yorm and get a 50% discount</p>
+                    </div>
+                </div>
+            </header>
+            <!-- Section-->
+            <section class="py-5 grad">
+                <!--///////////////////////////////Loop Video///////////////////////-->
+                <div style="margin-top: -300px;width: 50%; height: 450px; background: black; border: rgb(27, 22, 22);">
+                    <video width="670" height="500" autoplay muted controls loop style="margin-top: -50px;">
+                        <source src="videos/vid.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video>
+                </div>
+                <!-- About Section -->
+                <div class="main2" id="about_us">
+                        About Us
+                        <div><h5>We got what you need. Buy our Custom hoodies and get a 50% discount.</h5>
+                            <h5>Become a part of Yorm Community to get Excluive deals</h5>
+                            <img class="cover" src="images/homeBack2.png" alt="image">
+                        </div>
+                </div>
+               
+            </section>
+            
+            <!-- Footer-->
+            <footer style="height: 300px;"class="bg-dark">
+                <div style="width: 50%; float: left;">
+                    <a style="text-decoration: none;" href="#!"><h1 class="logo">Yorm.com</h1></a>
+                    <a style="text-decoration: none;" href="#!"><h5 class="logo1">Merch Hoodies</h5></a>
+                    <p style="text-align: left;margin-left: 100px;margin-top: 15px;color: rgb(172, 167, 167);">I am text block. Click edit button to change this text. Lorem ipsum dolor sit <br> amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, <br> pulvinar dapibus leo. I am text block. Click edit button to change this text. <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus <br> nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div style="width: 50%;">
+                </div>
+            </div>
+            <!-- Icons in the Footer + the Contact us Css -->
+                <div style="width: 50%;height: 300px;float: right;">
+                    <div class="row" style="margin-top: -30px; width: 600px;">
+                        <div class="col" style="width: 50%;"><h3 style="color: #ff6720;margin-top: 42px;margin-left: 60px;font-weight: 620;">CONTACT <span style="color:  #ffc720;">US</span></h3></div>
+                        <div class="col" style="margin-top: 35px; margin-left: 80px ;font-size: 30px;">
+                            <a href="https://facebook.com" class="fa br fa-facebook"></a>
+                            <a href="https://twitter.com" class="fa br fa-twitter"></a>
+                            <a href="https://instagram.com" class="fa br fa-instagram"></a>
+                            <a href="https://linkedin.com" class="fa br fa-linkedin"></a>
+                            <a href="https://pinterest.com" class="fa br fa-pinterest"></a>
+                        </div>
+                    </div>
+                    <div class="row" style="width: 400px;">
+                        <p style="color: rgb(182, 176, 176);margin-left: 60px;">Shop with Yorm and become a norm.<br> Contact us now <br> Phone: +923182227991 <br>
+                        <span><a id="jj" style="color: white;" href=""> yorm@gmail.com</a></span>
+                        <br><span id="jj"> Special deals are awaiting <br> February 11, 2020 11:00 am</span></p><br>
+                        
+                        <!-- Form For Subscription -->
+                        <form onsubmit="greet(); return false;">
+                            <input class="form-control" style="width: 290px;border-radius: 0px;margin-left: 60px;margin-top: 15px;" placeholder="EMAIL" type="text" id="name"><button class="btn btn-warning" style="width: 150px;height: 40px;border-radius: 0px;margin-left: 360px;margin-top: -65px;font-weight: bolder;color: #d44e10;">SUBSCRIBE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+                </div>
+                <!--Copyright footer-->
+                <div style=" height: 100px; width: 100%;">
+                    <p class="text-center text-white" >Copyright &copy; Your Website 2022</p>
+                </div>
+            </footer>
+        </body>
+    </html>
+
+
+
+  
+
+    

@@ -1,0 +1,126 @@
+.back {
+    background-image: url(images/home2.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.back2 {
+    background-image: url(images/productback.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.backcart {
+    background-image: url(images/homeback2.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.b {
+    background-image: url(images/backk2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+/* For sign in buttons hovering over the tab */
+button:hover {
+    color: white;
+    width:;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+    background-color: rgba(104, 85, 224, 1);
+}
+/* Login Button Css */
+.log {
+    color: rgb(224, 164, 85);
+    background-color: rgb(8, 8, 8);
+    border: 1px solid rgba(104, 85, 224, 1);
+    box-shadow: 0px 25px 40px #1687d933;
+}
+
+/* button css */
+button {
+    text-align: center;
+   cursor: pointer;
+   border: 0;
+   border-radius: 10px;
+   font-weight: 600;
+   margin: 0 14px;
+   width: 150px;
+   padding: 5px 0;
+   box-shadow: 0 0 20px rgba(68, 221, 7, 0.2);
+   transition: 0.4s;
+}
+.reg {
+    color: rgb(0, 0, 0);
+    background-color: rgb(238, 179, 17);
+    box-shadow: 0px 25px 40px #1687d933;
+  }
+.py-5 {
+    padding-top: 20rem !important;
+    padding-bottom: 20rem !important;
+}
+li {
+    font-weight: bolder;
+    font-size: large;
+}
+.logo {
+    text-decoration: none;
+    color:beige; 
+    font-weight: bolder;
+    font-family: pacifico; 
+    margin: 10px; 
+    border: 2px; 
+    padding: 3px;
+}
+.logo1 {
+    color:beige; 
+    font-weight: bold;
+    font-family: pacifico; 
+    margin: 10px; 
+    border: 2px; 
+    padding: 3px;
+    margin-top: -16px;
+    margin-left: 50px;
+}
+
+.grad {
+    background-image: url(images/backk2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.main2 {
+    margin-left: 50%;
+    height: 450px;
+    margin-top: -450px;
+    text-align: center;
+    font-weight: bolder;
+    
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    cursor: pointer;
+    font-size: 50px;
+    padding: 11px;
+    display: block;
+    white-space: nowrap;
+    border-radius: 5px;
+    box-shadow: 0px 1px 8px 2px #00000024 !important;
+}
+
+.cover {
+    height: 300px;
+    width: 80%;
+}
+.br {
+    text-decoration: none;
+    margin-left: 10px;
+}

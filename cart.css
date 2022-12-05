@@ -1,0 +1,89 @@
+.box {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+    height: 100vh;
+    margin-top: -200px;
+    margin-bottom: -200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+.cart-container {
+    width: 70%;
+    height: 85%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #1687d933;
+}
+.container1 {
+    width: 50%;
+    height: 95%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #1687d933;
+}
+.Header{
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+.Heading{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #2F3841;
+}
+.Action{
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+    border-bottom: 1px solid #E44C4C;
+}
+
+.check {
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 410px;
+    background: #ca0f7c;
+}
+
+.back-to-shop {
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+input[type=text], select, textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical ;
+  }
+  
+  input[type=submit] {
+    background-color: #cc10dd;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #df651e;
+  }
+  
+  .container2 {
+    border-radius: 5px;
+    background-color: #fa7d2a;
+    padding: 20px;
+  }
